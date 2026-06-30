@@ -440,9 +440,10 @@ MoLE constructions provide three privacy properties.
    Moderator-credential presentations to the same Client from the presentation
    alone. This should even hold if the Moderator colludes with the Site.
 
-2. *Anchor-hiding.* A Moderator-credential presentation reveals that the
+2. *Anchor-hiding.* An Anchor-endorsement presentation reveals that the
    underlying Anchor is in the Moderator's accepted Anchor set, but not which
-   Anchor issued the Anchor credential.
+   Anchor issued the Anchor credential. This should even hold if the Anchor 
+   colludes with the Moderator.
 
 3. *Anchor-endorsement post-issuance unlinkability.* A Moderator cannot link an
    Anchor-endorsement presentation to its issuance transcript. Constructions are
