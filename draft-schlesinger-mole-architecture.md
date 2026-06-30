@@ -438,7 +438,7 @@ MoLE constructions provide three privacy properties.
 
 1. *Moderator-credential unlinkability.* A Site cannot link two valid
    Moderator-credential presentations to the same Client from the presentation
-   alone.
+   alone. This should even hold if the Moderator colludes with the Site.
 
 2. *Anchor-hiding.* A Moderator-credential presentation reveals that the
    underlying Anchor is in the Moderator's accepted Anchor set, but not which
